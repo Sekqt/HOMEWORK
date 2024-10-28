@@ -25,7 +25,7 @@ int main() {
 
 
 	int __circumference;
-	scanf_s("%d\n", __circumference);
+	scanf_s("%d\n", & __circumference);
 	int __ans_1;
 	int __ans_2;
 	int __ans_3;
