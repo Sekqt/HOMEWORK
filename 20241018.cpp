@@ -13,6 +13,13 @@ int main() {
 	int b;
 	int _c;
 	int _result;
+
+	int __circumference;
+
+	double __ans_1;
+	double __ans_2;
+	double __ans_3;
+
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
 	printf("Enter a three-digit number\n");
@@ -27,11 +34,11 @@ int main() {
 	printf("%d\n", _result);
 
 
-	int __circumference;
+	//int __circumference;
 	scanf_s("%d", &__circumference);
-	double __ans_1;
-	double __ans_2;
-	double __ans_3;
+	//double __ans_1;
+	//double __ans_2;
+	//double __ans_3;
 	__ans_1 = CircleCircumference(__circumference);
 	__ans_2 = CircleArea(__circumference);
 	__ans_3 = BallVolume(__circumference);
